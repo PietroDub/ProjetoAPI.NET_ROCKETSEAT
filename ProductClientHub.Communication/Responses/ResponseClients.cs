@@ -1,0 +1,9 @@
+﻿namespace ProductClientHub.Communication.Responses
+{
+    public class ResponseClientsJson
+    {
+        //response: oq a API responde
+        public Guid Id{ get; set; }
+        public string? Name{ get; set; }
+    }
+}
